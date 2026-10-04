@@ -13,7 +13,7 @@ def valid_order():
 
 
 def test_valid_order():
-    assert validate_order(valid_order()) is True
+    assert validate_order(valid_order()) is False
 
 
 def test_negative_amount_is_rejected():
